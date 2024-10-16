@@ -1,0 +1,59 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+ 
+html,body{
+height: 100%;
+width: 100%;
+}
+
+.main{
+  height: 100%;
+  width: 100%;
+  background-color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card{
+  width: 90%;
+  max-width: 490px;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  text-align: center;
+  padding: 40px 10px;
+  border-radius: 30px;
+}
+
+input{
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+}
+button{
+  padding: 7px 10px;
+  background-color: rgba(128, 128, 128, 0.34);
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+}
+button i{
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+.city-name{
+  margin: 30px;
+}
+.city-name h2{
+  font-size: 4vw;
+  display: none;
+}
+
+.temperature h2{
+  font-size: 3vw;
+  margin-top: 30px;
+  display: none;
+}
